@@ -81,3 +81,5 @@ echo "configure success, wait secends will make and install"
 echo "当前目录==>$(pwd)"
 sleep 3
 make && make install
+
+echo "make and install success, install path ==>$BUILD_OUT_PREFIX"
