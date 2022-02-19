@@ -78,5 +78,6 @@ auto/configure 													\
 # create temp dir
 mkdir -p $BUILD_OUT_PREFIX/temp
 echo "configure success, wait secends will make and install"
+echo "当前目录==>$(pwd)"
 sleep 3
 make && make install
